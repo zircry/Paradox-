@@ -49,3 +49,90 @@ sensational
   </footer>
 </body>
 </html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #111;
+  color: #fff;
+}
+
+.hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.btn {
+  background: #fff;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff0055;
+  color: #fff;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.products .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
