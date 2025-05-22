@@ -27,17 +27,17 @@ sensational
     <h2>Featured Drops</h2>
     <div class="product-grid">
       <div class="product-card">
-        <img src="images/hoodie.jpg" alt="Paradox Hoodie" />
+        <img src="https://images.unsplash.com/photo-1600180758890-b5aa098c7322?auto=format&fit=crop&w=600&q=80" alt="Paradox Hoodie" />
         <h3>Oversized Hoodie</h3>
         <p>$65</p>
       </div>
       <div class="product-card">
-        <img src="images/jacket.jpg" alt="Paradox Jacket" />
+        <img src="https://images.unsplash.com/photo-1520975918108-b0d4c1ecb6cc?auto=format&fit=crop&w=600&q=80" alt="Paradox Jacket" />
         <h3>Techwear Jacket</h3>
         <p>$120</p>
       </div>
       <div class="product-card">
-        <img src="images/tee.jpg" alt="Paradox Tee" />
+        <img src="https://images.unsplash.com/photo-1602810318592-cb2a1e3e6cf1?auto=format&fit=crop&w=600&q=80" alt="Paradox Tee" />
         <h3>Graphic Tee</h3>
         <p>$35</p>
       </div>
@@ -63,12 +63,12 @@ body {
 }
 
 .hero {
-  background: url('images/hero.jpg') no-repeat center center/cover;
+  background: url('https://images.unsplash.com/photo-1521336575822-6da63fb45455?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
   height: 100vh;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .hero .overlay {
@@ -124,6 +124,7 @@ body {
 .product-card img {
   max-width: 100%;
   border-radius: 5px;
+  height: auto;
 }
 
 .product-card:hover {
